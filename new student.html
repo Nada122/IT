@@ -1,13 +1,19 @@
 <html>
-<head  class="special">
+<head>
 <title>New student</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<a href="index.html" target="self">Home</a> &nbsp;
-    <a href="student list.html" target="blank">Student list</a>&nbsp;
-    <a href="new student.html" target="self">new student</a>&nbsp;
+<link rel="stylesheet" href="stylen.css" type="text/css" >
 </head>
-<hr>
+
 <body>
+    <nav>
+        <ul list-style-type: none ;>
+        <li><a href="index.html" target="blank">Home</a> &nbsp;</li>
+        <li><a href="student list.html" target="blank">Student list</a>&nbsp;</li>
+        <li><a  class="active" href="new student.html" target="self">new student</a>&nbsp;</li>
+        <li class="a"><a href="#">Logout</a> </li>
+        </ul>
+        </nav>
+        <hr>
 <h1>New student</h1>
 <form>
 <fieldset>
@@ -43,8 +49,8 @@
             <option value="fps">Faculty of political science</option>
         </select>
         </label>
-        <p>
-            <input type="submit" name="add">
+        <p >
+         <input type="submit" name="add"   class="addButton"  >
         </p>
         </fieldset>
         </form>
